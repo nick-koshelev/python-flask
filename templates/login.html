@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import form_render %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+{{ form_render(form) }}
+{% endblock %}
